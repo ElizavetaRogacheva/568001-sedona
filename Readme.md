@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Елизавета Рогачева](https://up.htmlacademy.ru/htmlcss/20/user/568001).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Сигов](https://htmlacademy.ru/profile/crazer).
 
 ---
 
