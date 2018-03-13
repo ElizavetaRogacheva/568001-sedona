@@ -111,6 +111,14 @@ h3 {
     font-weight: bold;
 }
 
+.supply-block {
+    width: 1200px;
+    height: 256px;
+    background-color: #eeeeee;
+}
 
+.supply-list {
+    list-style: none;
+}
 
 
