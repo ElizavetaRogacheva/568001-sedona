@@ -202,3 +202,9 @@ button {
     font-size: 21px;
 }
 
+.map-section {
+    width: 1200px;
+    height: 748px;
+    background-image: url(../img/map.jpg);
+}
+
