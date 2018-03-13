@@ -1,3 +1,39 @@
-body{
+body {
+    margin: 0;
+    padding: 0;
+
     font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-nav {
+    font-weight: bold;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.main-header-menu {
+    list-style: none;
+}
+
+.main-header-menu a {
+    color: #000000;
+}
+
+.main-header-menu a:hover,
+.main-header-menu a:focus {
+    color: #81b3d2;
+}
+
+.main-header-menu a:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.current a {
+    color: #766357;
 }
