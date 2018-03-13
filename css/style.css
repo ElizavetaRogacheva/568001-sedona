@@ -76,3 +76,17 @@ a {
     background-repeat: no-repeat;
     background-position: 0 0;
 }
+
+.introduction {
+    height: 217px;
+    background-color: #ffffff;
+}
+
+.introduction p {
+    text-align: center;
+}
+
+.slogan {
+    font-size: 21px;
+    font-weight: bold;
+}
