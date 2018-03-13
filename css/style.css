@@ -42,7 +42,9 @@ a {
     width: 1200px;
     height: 510px;
     background-color: #cddfea;
-    background-image: url(../img/background.jpg);
+    background-image: 
+        url(../img/shape.png),
+        url(../img/background.jpg);
     background-repeat: no-repeat; 
 }
 
@@ -127,12 +129,15 @@ h3 {
 
 .last-reasons {
     width: 1200px;
-    height: 256px;
     background-color: #eeeeee;
 }
 
 .last-reasons-list {
     list-style: none;
+}
+
+.hotel-search {
+    
 }
 
 
