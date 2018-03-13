@@ -136,8 +136,69 @@ h3 {
     list-style: none;
 }
 
-.hotel-search {
-    
+.search-data {
+    width: 1200px;
+    height: 292px;
 }
 
+.hotel-search h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.hotel-search-button {
+    width: 568px;
+    height: 86px;
+    background-color: #766357;
+    font-size: 21px;
+
+}
+
+.hotel-search-button:hover,
+.hotel-search-button:focus {
+    background-color: #604e43;
+}
+
+.hotel-search-button:active {
+    background-color: #503e33;
+    color: #857871;
+}
+
+.form-section {
+    width: 568px;
+    height: 395px;
+}
+
+.form-section input {
+    border: none;
+    background-color: #f2f2f2;
+    height: 38px;
+}
+
+.form-section label {
+    font-weight: bold;
+}
+
+.long-area input {
+    width: 346px;
+}
+
+.short-area input {
+    width: 114px;
+}
+
+.search-button {
+    background-color: #81b3d2;
+    width: 458px;
+    height: 58px;
+    font-size: 21px;
+}
 

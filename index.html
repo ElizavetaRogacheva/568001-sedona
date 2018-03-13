@@ -92,28 +92,30 @@
             </section>
           </div>
           <section class="hotel-search">
-            <h2>Заинтересовались?</h2>
-            <p>Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-            <div class="form-section">
+            <div class="search-data">
+              <h2>Заинтересовались?</h2>
+              <p>Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в Седоне</p>
               <button class="hotel-search-button">Поиск гостиницы в Седоне</button>
+            </div>
+            <div class="form-section">
                 <form action="https://echo.htmlacademy.ru" method="POST">
-                  <p class="form-item">
+                  <p class="form-item long-area">
                     <label for="date-entrance">Дата заезда:</label>
-                    <input type="date" name="date-entrance" id="date-entrance">
+                    <input type="date" name="date-entrance" id="date-entrance" placeholder="24 апреля 2017">
                   </p>
-                  <p class="form-item">
+                  <p class="form-item long-area">
                     <label for="date-departure">Дата выезда:</label>
-                    <input type="date" name="date-departure" id="date-departure">
+                    <input type="date" name="date-departure" id="date-departure" placeholder="4 июля 2017">
                   </p>
-                  <p class="form-item">
+                  <p class="form-item short-area">
                     <label for="adults-amount">Взрослые:</label>
                     <input type="number" name="adults-amount" id="adults-amount">
                   </p>
-                  <p class="form-item">
+                  <p class="form-item short-area">
                     <label for="children-amount">Дети:</label>
                     <input type="number" name="children-amount" id="children-amount">
                   </p>
-                  <button class="button" type="submit">Найти</button>
+                  <button class="search-button" type="submit">Найти</button>
                 </form>
             </div>
           </section>
