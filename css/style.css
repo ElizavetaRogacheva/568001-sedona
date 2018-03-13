@@ -37,3 +37,42 @@ a {
 .current a {
     color: #766357;
 }
+
+.promo {
+    height: 510px;
+    background-color: #cddfea;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat; 
+}
+
+.promo-first {
+    width: 190px;
+    height: 45px;
+    background-image: url(../img/promo-top-welcome.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.promo-second {
+    width: 256px;
+    height: 30px;
+    background-image: url(../img/to-the-gorgeous.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.promo-sedona {
+    width: 458px;
+    height: 78px;
+    background-image: url(../img/promo-sedona.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.promo-bottom {
+    width: 296px;
+    height: 80px;
+    background-image: url(../img/promo-bottom.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
