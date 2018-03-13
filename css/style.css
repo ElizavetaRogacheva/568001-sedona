@@ -97,6 +97,7 @@ a {
     width: 1200px;
     height: 256px;
     color: #ffffff;
+    background-color: #81b3d2;
 }
 
 .part-1 {
@@ -118,6 +119,11 @@ h3 {
 
 .supply-list {
     list-style: none;
+}
+
+.part-2 {
+    background-image: url(../img/layer-2.jpg);
+    background-repeat: no-repeat;
 }
 
 
