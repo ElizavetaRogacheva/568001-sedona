@@ -39,6 +39,7 @@ a {
 }
 
 .promo {
+    width: 1200px;
     height: 510px;
     background-color: #cddfea;
     background-image: url(../img/background.jpg);
@@ -78,6 +79,7 @@ a {
 }
 
 .introduction {
+    width: 1200px;
     height: 217px;
     background-color: #ffffff;
 }
@@ -90,3 +92,25 @@ a {
     font-size: 21px;
     font-weight: bold;
 }
+
+.reason {
+    width: 1200px;
+    height: 256px;
+    color: #ffffff;
+}
+
+.part-1 {
+    background-color: #81b3d2;
+    background-image: url(../img/layer-1.jpg);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+
+
