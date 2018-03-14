@@ -273,6 +273,8 @@ button {
 
 .search-results {
     width: 1200px;
+    border-bottom: 1px solid #e5e5e5;
+}
 
 }
 
@@ -314,4 +316,63 @@ button {
 
 .sorting-item-current a {
     color: #81b3d2;
+}
+
+.hotels {
+    width: 1200px;
+}
+
+.hotel-title a {
+    font-size: 21px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.hotel-title a:hover,
+.hotel-title a:focus {
+    color: #81b3d2;
+}
+
+.hotel-title a:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.info-button {
+    display: inline-block;
+    padding: 7px 16px;
+    background-color: #81b3d2;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.info-button:hover,
+.info-button:focus {
+    background-color: #669ec0;
+}
+
+.info-button:active {
+    background-color: #5496bd;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.reservation-button {
+    display: inline-block;
+    padding: 7px 16px;
+    background-color: #766357;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.reservation-button:hover,
+.reservation-button:focus {
+    background-color: #604e43;
+}
+
+.reservation-button:active {
+    background-color: #503e33;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+article {
+    border-bottom: 1px solid #e5e5e5;
 }
