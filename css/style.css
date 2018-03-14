@@ -265,7 +265,53 @@ button {
     font-weight: normal;
 }
 
-.filters button:hover {
+.filters button:hover,
+.filters button:focus {
     color: #000000;
     background-color: #ffffff;
+}
+
+.search-results {
+    width: 1200px;
+
+}
+
+.search-results h2 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.sorting-list,
+.sorting-elements,
+.hotels-list {
+    list-style: none;
+}
+
+.sorting-list li {
+    font-size: 12px;
+}
+
+.main-sorting-item {
+    color: #000000;
+}
+
+.sorting-item a {
+    color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+}
+
+.sorting-item a:hover,
+.sorting-item a:focus {
+    color: #81b3d2;
+    border-bottom: 1px dashed #81b3d2;
+
+}
+
+.sorting-item a:active {
+    color: #000000; 
+    border: none;
+}
+
+.sorting-item-current a {
+    color: #81b3d2;
 }
