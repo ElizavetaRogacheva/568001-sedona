@@ -220,6 +220,13 @@ button {
     font-size: 21px;
 }
 
+.social-button {
+    display: inline-block;
+    width: 46px;
+    height: 48px;
+    background-color: #81b3d2;
+}
+
 .filters {
     background-image: url(../img/filter-background.jpg);
     background-position: 0 0;
