@@ -220,9 +220,52 @@ button {
     font-size: 21px;
 }
 
-.social-button {
-    width: 46px;
-    height: 48px;
-    background-color: #81b3d2;
+.filters {
+    background-image: url(../img/filter-background.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
 }
 
+.filters fieldset {
+    border: none;
+}
+
+.filters legend {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.filters ul {
+    list-style: none;
+}
+
+.filters label {
+    color: #ffffff;
+}
+
+.range-limit {
+    width: 318px;
+    height: 36px;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+}
+
+.range-limit span {
+    color: #ffffff;
+}
+
+.filters button {
+    width: 136px;
+    height: 34px;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: normal;
+}
+
+.filters button:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
