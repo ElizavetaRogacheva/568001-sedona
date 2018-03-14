@@ -204,7 +204,25 @@ button {
 
 .map-section {
     width: 1200px;
-    height: 748px;
+    height: 593px;
     background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
+}
+
+.main-footer {
+    width: 1200px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.visit-sedona {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.social-button {
+    width: 46px;
+    height: 48px;
+    background-color: #81b3d2;
 }
 
