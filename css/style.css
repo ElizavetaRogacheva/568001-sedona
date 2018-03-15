@@ -209,6 +209,16 @@ button {
     line-height: 26px;
 }
 
+.search-button:hover,
+.search-button:focus {
+    background-color: #669ec0;
+}
+
+.search-button:active {
+    background-color: #5496bd;
+    color: rgba(255, 255, 255, 0.3);
+}
+
 .map-section {
     width: 1200px;
     height: 593px;
@@ -233,6 +243,15 @@ button {
     width: 46px;
     height: 48px;
     background-color: #81b3d2;
+}
+
+.social-button:hover,
+.social-button:focus {
+    background-color: #669ec0;
+}
+
+.social-button:active {
+    background-color: #5496bd;
 }
 
 .creators p {
