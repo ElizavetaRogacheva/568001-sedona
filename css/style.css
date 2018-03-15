@@ -423,3 +423,10 @@ button {
 article {
     border-bottom: 1px solid #e5e5e5;
 }
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+}
