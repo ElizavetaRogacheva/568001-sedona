@@ -4,6 +4,7 @@ body {
 
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 14px;
+    line-height: 21px;
     text-transform: uppercase;
 }
 
@@ -13,6 +14,7 @@ a {
 
 .main-nav {
     font-weight: bold;
+    line-height: 26px;
     color: #000000;
     background-color: #ffffff;
 }
@@ -88,11 +90,13 @@ a {
 
 .introduction p {
     text-align: center;
+    line-height: 26px;
 }
 
 .slogan {
     font-size: 21px;
     font-weight: bold;
+    line-height: 26px;
 }
 
 .reason {
@@ -159,6 +163,7 @@ button {
     height: 86px;
     background-color: #766357;
     font-size: 21px;
+    line-height: 26px;
 
 }
 
@@ -185,6 +190,7 @@ button {
 
 .form-section label {
     font-weight: bold;
+    line-height: 26px;
 }
 
 .long-area input {
@@ -200,6 +206,7 @@ button {
     width: 458px;
     height: 58px;
     font-size: 21px;
+    line-height: 26px;
 }
 
 .map-section {
@@ -218,6 +225,7 @@ button {
 .visit-sedona {
     font-weight: bold;
     font-size: 21px;
+    line-height: 26px;
 }
 
 .social-button {
@@ -225,6 +233,10 @@ button {
     width: 46px;
     height: 48px;
     background-color: #81b3d2;
+}
+
+.creators p {
+    line-height: 26px;
 }
 
 .filters {
@@ -288,6 +300,7 @@ button {
 .search-results h2 {
     font-size: 21px;
     font-weight: bold;
+    line-height: 26px;
 }
 
 .sorting-list,
@@ -298,6 +311,7 @@ button {
 
 .sorting-list li {
     font-size: 12px;
+    line-height: 18px;
 }
 
 .main-sorting-item {
@@ -333,6 +347,7 @@ button {
     font-size: 21px;
     font-weight: bold;
     color: #000000;
+    line-height: 26px;
 }
 
 .hotel-title a:hover,
@@ -346,7 +361,7 @@ button {
 
 .info-button {
     display: inline-block;
-    padding: 7px 16px;
+    padding: 3px 16px;
     background-color: #81b3d2;
     font-weight: bold;
     color: #ffffff;
@@ -364,7 +379,7 @@ button {
 
 .reservation-button {
     display: inline-block;
-    padding: 7px 16px;
+    padding: 3px 16px;
     background-color: #766357;
     font-weight: bold;
     color: #ffffff;
@@ -378,6 +393,12 @@ button {
 .reservation-button:active {
     background-color: #503e33;
     color: rgba(255, 255, 255, 0.3);
+}
+
+.rating {
+    display: inline-block;
+    padding: 3px 14px;
+    background-color: #f2f2f2;
 }
 
 article {
