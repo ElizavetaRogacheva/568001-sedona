@@ -6,11 +6,24 @@ body {
     font-size: 14px;
     line-height: 21px;
     text-transform: uppercase;
+    background-color: #f2f2f2;
 }
 
 a {
     text-decoration: none;
 }
+
+header {
+    width: 1200px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px 10px #000000;
+}
+
 
 .main-nav {
     font-weight: bold;
@@ -283,6 +296,7 @@ button {
 .filters label {
     color: #ffffff;
 }
+
 
 .range-limit {
     width: 318px;
