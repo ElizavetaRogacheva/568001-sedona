@@ -48,6 +48,7 @@ a {
         url(../img/shape.png),
         url(../img/background.jpg);
     background-repeat: no-repeat; 
+    background-position: 100% 100%, 0 0;
 }
 
 .promo-first {
@@ -243,6 +244,7 @@ button {
     width: 46px;
     height: 48px;
     background-color: #81b3d2;
+    font-size: 0;
 }
 
 .social-button:hover,
@@ -356,6 +358,10 @@ button {
 
 .sorting-item-current a {
     color: #81b3d2;
+}
+
+.sorting-elements li {
+    font-size: 0;
 }
 
 .hotels {
