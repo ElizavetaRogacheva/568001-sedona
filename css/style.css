@@ -229,29 +229,61 @@ h3 {
 
 .supply-block {
     width: 1200px;
-    height: 330px;
+    min-height: 330px;
+    background-color: #ffffff;
 }
 
 .supply-list {
     width: 1200px;
     list-style: none;
-    
-}
-
-.container-s {
-    width: 288px;
-    height: 190px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .supply-list li {
-    width: 400px; 
-    min-height: 330px;
-    
+    width: 400px;
 }
 
-.part-2 {
-   
+.supply-item h3 {
+    margin: 0;
+    text-align: center;
+    position: relative;
+    margin-top: 162px;
+}
+
+.supply-item p {
+    margin: 0;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 24px;
+}
+
+.supply-item h3::before {
+    content: "";
+    position: absolute;
+    bottom: 56px;
+    left: 162px;
+}
+
+.supply-housing h3::before {
+    background-image: url(../img/icon-1.svg);
+    width: 75px;
+    height: 72px;
+}
+
+.supply-food h3::before {
+    background-image: url(../img/icon-2.svg);
+    width: 74px;
+    height: 70px;
+}
+
+.supply-souvenirs h3::before {
+    background-image: url(../img/icon-3.svg);
+    width: 64px;
+    height: 76px;
 }
 
 .reason-img {
