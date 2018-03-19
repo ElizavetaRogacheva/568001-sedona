@@ -32,9 +32,7 @@ header {
     font-weight: bold;
     line-height: 26px;
     color: #000000;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;  
 }
 
 .main-header-menu {
@@ -42,21 +40,9 @@ header {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    padding: 0;
-    
-    
+    flex-wrap: wrap;
+    padding: 0;  
 }
-
-.left-menu {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.right-menu {
-    display: flex;
-    justify-content: flex-end;
-}
-
 
 .main-header-logo {
     position: absolute;
@@ -331,14 +317,33 @@ h3 {
     margin-right: 58px;
 }
 
-.search-data {
-    width: 1200px;
-    height: 292px;
+.hotel-search {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.hotel-search h2 {
+.search-data {
+    width: 1200px;
+    min-height: 292px;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.search-data h2 {
     font-size: 30px;
     font-weight: bold;
+    margin: 0;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.search-data p {
+    margin: 0;
+    text-align: center;
+    margin-top: 40px;
 }
 
 button {
@@ -350,11 +355,14 @@ button {
 }
 
 .hotel-search-button {
+    padding: 0;
     width: 568px;
     height: 86px;
     background-color: #766357;
     font-size: 21px;
     line-height: 26px;
+    margin-left: 316px;
+    margin-top: 62px;
 
 }
 
