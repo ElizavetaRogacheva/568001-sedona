@@ -15,26 +15,34 @@ a {
 
 header {
     width: 1200px;
+    min-height: 56px;
+    background-color: #ffffff;
+
 }
 
 .main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 0 10px 10px #000000;
 }
 
 
 .main-nav {
+    width: 1056px;
     font-weight: bold;
     line-height: 26px;
     color: #000000;
-    background-color: #ffffff;
+    
+    
 }
 
 .main-header-menu {
     list-style: none;
+    
+    
 }
+
+.main-header-logo {}
 
 .main-header-menu a {
     color: #000000;
@@ -61,7 +69,9 @@ header {
         url(../img/shape.png),
         url(../img/background.jpg);
     background-repeat: no-repeat; 
-    background-position: 100% 100%, 0 0;
+    background-position: 100% 100%, 0 -56px;
+    
+    
 }
 
 .promo-first {
@@ -70,6 +80,8 @@ header {
     background-image: url(../img/promo-top-welcome.png);
     background-repeat: no-repeat;
     background-position: 0 0;
+   
+       
 }
 
 .promo-second {
@@ -78,6 +90,7 @@ header {
     background-image: url(../img/to-the-gorgeous.png);
     background-repeat: no-repeat;
     background-position: 0 0;
+    
 }
 
 .promo-sedona {
@@ -86,6 +99,7 @@ header {
     background-image: url(../img/promo-sedona.png);
     background-repeat: no-repeat;
     background-position: 0 0;
+    
 }
 
 .promo-bottom {
@@ -94,6 +108,12 @@ header {
     background-image: url(../img/promo-bottom.png);
     background-repeat: no-repeat;
     background-position: 0 0;
+    
+}
+
+.reasons {
+    
+
 }
 
 .introduction {
@@ -108,9 +128,14 @@ header {
 }
 
 .slogan {
+    
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
+}
+
+.introduction-text {
+    
 }
 
 .reason {
@@ -126,6 +151,22 @@ header {
     background-position: 400px 0;
 }
 
+.reason-text-container {
+    width: 400px;
+}
+
+
+.reason-text-container h3,
+.reason-text-container p {
+    text-align: center; 
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.reason-text-container h3 {
+    margin-top: 46px;
+}
+
 h3 {
     font-size: 21px;
     font-weight: bold;
@@ -134,24 +175,54 @@ h3 {
 .supply-block {
     width: 1200px;
     height: 330px;
-}
+    
 
 .supply-list {
+    width: 1200px;
     list-style: none;
+    
 }
 
+.container-s {
+    width: 288px;
+    height: 190px;
+    text-align: center;
+}
+
+.supply-list li {
+    width: 400px; 
+    min-height: 330px;
+    
+}
+
+
+
 .part-2 {
+   
+}
+
+.reason-img {
+    width: 800px;
     background-image: url(../img/layer-2.jpg);
     background-repeat: no-repeat;
 }
 
+
 .last-reasons {
     width: 1200px;
     background-color: #eeeeee;
+    height: 256px;
 }
 
 .last-reasons-list {
     list-style: none;
+    width: 1200px;
+    
+}
+
+.last-reason-item {
+    width: 400px;
+    text-align: center;
 }
 
 .search-data {
