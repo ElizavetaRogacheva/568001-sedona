@@ -155,8 +155,9 @@ header {
 }
 
 .reasons {
-    
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .introduction {
@@ -171,14 +172,16 @@ header {
 }
 
 .slogan {
-    
+    margin: 0;
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
+    margin-top: 59px;
 }
 
 .introduction-text {
-    
+    margin: 0;
+    margin-top: 29px;
 }
 
 .reason {
@@ -218,7 +221,7 @@ h3 {
 .supply-block {
     width: 1200px;
     height: 330px;
-    
+}
 
 .supply-list {
     width: 1200px;
@@ -237,8 +240,6 @@ h3 {
     min-height: 330px;
     
 }
-
-
 
 .part-2 {
    
