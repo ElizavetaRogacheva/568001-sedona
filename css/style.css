@@ -378,7 +378,38 @@ button {
 
 .form-section {
     width: 568px;
-    height: 395px;
+    min-height: 395px;
+    background-color: #ffffff;
+    margin-left: 316px;
+}
+
+.form-section form {
+    margin-top: 55px;
+    min-height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.short-area-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.form-section p {
+    margin: 0;
+    padding: 0;
+}
+
+.form-section button {
+    margin: 0;
+    padding: 0;
+    margin-top: 54px;
+}
+
+.long-area:nth-child(2) {
+    margin-top: 30px;
 }
 
 .form-section input {
@@ -394,10 +425,20 @@ button {
 
 .long-area input {
     width: 346px;
+    margin-left: 18px;
 }
 
 .short-area input {
     width: 114px;
+    margin-left: 18px;
+}
+
+.short-area:first-child input {
+    margin-right: 30px;
+}
+
+.short-area label {
+    margin-left: 20px;
 }
 
 .search-button {
