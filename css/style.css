@@ -15,8 +15,8 @@ a {
 
 header {
     width: 1200px;
-    min-height: 56px;
     background-color: #ffffff;
+    display: flex;
 
 }
 
@@ -32,17 +32,36 @@ header {
     font-weight: bold;
     line-height: 26px;
     color: #000000;
+    margin: 0 auto;
     
     
 }
 
 .main-header-menu {
+    min-width: 1056px;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
     
     
 }
 
-.main-header-logo {}
+.left-menu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.main-header-logo {
+    position: absolute;
+    left: 606px;
+}
 
 .main-header-menu a {
     color: #000000;
