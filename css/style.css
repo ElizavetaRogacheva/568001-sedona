@@ -468,14 +468,23 @@ button {
 
 .main-footer {
     width: 1200px;
-    height: 120px;
+    min-height: 120px;
     background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .visit-sedona {
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
+    margin: 0;
+    margin-left: 130px;
+}
+
+.contacts {
+    margin-left: 256px;
 }
 
 .social-button {
@@ -495,8 +504,14 @@ button {
     background-color: #5496bd;
 }
 
+.creators {
+    margin-left: 228px;
+}
+
 .creators p {
     line-height: 26px;
+    margin: 0;
+    padding: 0;
 }
 
 .filters {
