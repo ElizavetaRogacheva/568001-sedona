@@ -13,40 +13,40 @@ a {
     text-decoration: none;
 }
 
-header {
+.main-container {
     width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 0 73px;
     background-color: #ffffff;
     display: flex;
 
 }
 
-.main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
 .main-nav {
-    width: 1056px;
     font-weight: bold;
     line-height: 26px;
-    color: #000000;
-    margin: 0 auto;  
+    color: #000000;  
 }
 
 .main-header-menu {
-    min-width: 1056px;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     padding: 0;  
 }
 
+.main-menu-item:not(:last-child) {
+    margin-right: 210px;
+}
+
 .main-header-logo {
     position: absolute;
-    left: 606px;
+    left: 50%;
+    margin-left: -68px;    
 }
 
 .main-header-menu a {
