@@ -673,27 +673,43 @@ button {
 }
 
 .search-results {
-    width: 1200px;
     border-bottom: 1px solid #e5e5e5;
-}
-
+    display: flex;
+    padding: 32px 73px;
 }
 
 .search-results h2 {
+    margin: 0;
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
 }
 
-.sorting-list,
-.sorting-elements,
-.hotels-list {
+.search-results ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sorting-list {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
 }
 
 .sorting-list li {
     font-size: 12px;
     line-height: 18px;
+    margin-left: 33px;
+}
+
+.sorting-list li:first-child {
+    margin-left: 50px;
+}
+
+.sorting-elements {
+    display: flex;
+    align-items: center;
 }
 
 .main-sorting-item {
