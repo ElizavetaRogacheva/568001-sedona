@@ -307,11 +307,10 @@ h3 {
 }
 
 .search-data {
-    width: 1200px;
-    min-height: 292px;
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+    padding-top: 56px;
 }
 
 .search-data h2 {
@@ -319,13 +318,13 @@ h3 {
     font-weight: bold;
     margin: 0;
     text-align: center;
-    margin-top: 60px;
+    margin-bottom: 34px;    
 }
 
 .search-data p {
     margin: 0;
     text-align: center;
-    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 button {
@@ -343,9 +342,8 @@ button {
     background-color: #766357;
     font-size: 21px;
     line-height: 26px;
-    margin-left: 316px;
-    margin-top: 62px;
-
+    margin-left: 50%;
+    transform: translateX(-284px);
 }
 
 .hotel-search-button:hover,
