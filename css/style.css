@@ -254,11 +254,18 @@ h3 {
 .part-2 {
     background-image: url(../img/layer-2.jpg);
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .reason-text-container-2 {
     width: 400px;
-    margin-left: 800px;
+    padding-top: 50px;
+    padding-bottom: 54px;
+}
+
+.reason-text-container-2 p:not(:last-child) {
+    margin-bottom: 26px;
 }
 
 .last-reasons {
