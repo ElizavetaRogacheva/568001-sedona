@@ -157,12 +157,9 @@ header {
 
 .reason {
     width: 1200px;
-    height: 256px;
     color: #ffffff;
     background-color: #81b3d2;
 }
-
-
 
 .part-1 {
     background-image: url(../img/layer-1.jpg);
@@ -170,10 +167,10 @@ header {
     background-position: 400px 0;
 }
 
-
-
 .reason-text-container {
     width: 400px;
+    padding-top: 50px;
+    padding-bottom: 54px;
 }
 
 .reason-text-container h3,
@@ -181,18 +178,17 @@ header {
     text-align: center;
     margin: 0;
     line-height: 21px;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-bottom: 26px;
 }
 
 .reason-text-container p,
 .reason-text-container-2 p {
     text-align: center; 
-    margin: 0;
-    margin-top: 26px;
-    margin-left: 52px;
-    margin-right: 52px;
+    margin: 0 50px;
+}
+
+.reason-text-container p:not(:last-child) {
+    margin-bottom: 26px;
 }
 
 h3 {
