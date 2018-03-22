@@ -311,6 +311,7 @@ h3 {
     margin: 0;
     padding: 0;
     padding-top: 56px;
+    position: relative;
 }
 
 .search-data h2 {
@@ -357,15 +358,15 @@ button {
 }
 
 .form-section {
-    width: 568px;
-    min-height: 395px;
+    position: absolute;
+    left: 50%;
+    margin-left: -284px;
+    margin-top: 286px;
     background-color: #ffffff;
-    margin-left: 316px;
+    padding: 55px;
 }
 
 .form-section form {
-    margin-top: 55px;
-    min-height: 290px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -374,22 +375,18 @@ button {
 
 .short-area-container {
     display: flex;
-    margin-top: 30px;
+    margin-bottom: 24px;
 }
 
 .form-section p {
     margin: 0;
     padding: 0;
+    margin-bottom: 30px;
 }
 
 .form-section button {
     margin: 0;
     padding: 0;
-    margin-top: 54px;
-}
-
-.long-area:nth-child(2) {
-    margin-top: 30px;
 }
 
 .form-section input {
@@ -405,20 +402,10 @@ button {
 
 .long-area input {
     width: 346px;
-    margin-left: 18px;
 }
 
 .short-area input {
     width: 114px;
-    margin-left: 18px;
-}
-
-.short-area:first-child input {
-    margin-right: 30px;
-}
-
-.short-area label {
-    margin-left: 20px;
 }
 
 .search-button {
