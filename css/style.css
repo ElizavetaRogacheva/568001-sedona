@@ -742,7 +742,25 @@ button {
 }
 
 .hotels {
-    width: 1200px;
+    background-color: #ffffff;
+}
+
+.hotels-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hotels-item h2 {
+    margin: 0;
+}
+
+.hotels-item p {
+    margin: 0;
+}
+
+.hotels article {
+    padding: 30px 73px;
 }
 
 .hotel-title a {
@@ -750,6 +768,7 @@ button {
     font-weight: bold;
     color: #000000;
     line-height: 26px;
+
 }
 
 .hotel-title a:hover,
