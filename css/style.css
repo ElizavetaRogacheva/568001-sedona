@@ -487,32 +487,83 @@ button {
     background-image: url(../img/filter-background.jpg);
     background-position: 0 0;
     background-repeat: no-repeat;
+    padding: 30px 73px;
 }
 
 .filters form {
     display: flex;
 }
 
+.filters ul  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.checkbox-field legend {
+    margin-bottom: 28px;
+}
+
 .filters fieldset {
     border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.infrastructure li,
+.housing-type li {
+    padding-left: 40px; 
+}
+
+.infrastructure li:not(:last-child) {
+    margin-bottom: 28px;
+}
+
+.housing-type li:not(:last-child) {
+    margin-bottom: 28px;
 }
 
 .filters legend {
     color: #ffffff;
     font-size: 16px;
+    line-height: 21px;
     font-weight: bold;
-}
-
-.filters ul {
-    list-style: none;
+    padding: 0;
 }
 
 .filters label {
     color: #ffffff;
 }
 
+.checkbox-item label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.filter-input-checkbox + label::before {
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 25px;
+    background-image: url(../img/checkbox-off.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    left: -43px;
+}
+
+.filter-input-checkbox:checked + label::before {
+    left: -41px;
+    background-image: url(../img/checkbox-on.svg);
+}
+
+.filters fieldset:nth-child(2) {
+    margin-left: 114px;
+}
+
 .filter-range {
     width: 330px;
+    margin-left: 346px;
 }
 
 .filter-range label {
