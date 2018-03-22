@@ -210,7 +210,6 @@ h3 {
 
 .supply-list li {
     width: 300px;
-    outline: #053652;
     padding: 164px 50px 84px;
     position: relative;
 }
@@ -269,36 +268,35 @@ h3 {
 }
 
 .last-reasons {
-    width: 1200px;
     background-color: #eeeeee;
-    min-height: 256px;
 }
 
 .last-reasons-list {
     margin: 0;
     padding: 0;
     list-style: none;
-    width: 1200px;
     display: flex;
     justify-content: space-between;
 }
 
 .last-reason-item {
-    width: 400px;
     text-align: center;
+    width: 300px;
+    padding: 50px 50px 60px;
 }
 
 .last-reason-item h3 {
     margin: 0;
-    margin-top: 50px;
+    margin-bottom: 26px;
 }
 
 .last-reason-item p {
     margin: 0;
-    margin-top: 26px;
     line-height: 21px;
-    margin-left: 58px;
-    margin-right: 58px;
+}
+
+.last-reason-item p:not(:last-child) {
+    margin-bottom: 26px;
 }
 
 .hotel-search {
