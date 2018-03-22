@@ -68,8 +68,7 @@ header {
 
 .promo {
     margin: 0;
-    padding: 0;
-    width: 1200px;
+    padding-top: 76px;
     height: 510px;
     background-color: #cddfea;
     background-image: 
@@ -77,22 +76,14 @@ header {
         url(../img/background.jpg);
     background-repeat: no-repeat; 
     background-position: 100% 100%, 0 -56px;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
 }
 
 .promo-container {
-    width: 464px;
-    height: 356px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     padding: 0;
-    margin-top: 76px;
 }
 
 .promo-first {
@@ -102,8 +93,7 @@ header {
     background-repeat: no-repeat;
     background-position: 0 0;
     margin: 0;
-   
-       
+    margin-bottom: 11px;
 }
 
 .promo-second {
@@ -113,9 +103,7 @@ header {
     background-repeat: no-repeat;
     background-position: 0 0;
     margin: 0;
-    margin-top: 12px;
-
-    
+    margin-bottom: 52px;
 }
 
 .promo-sedona {
@@ -125,8 +113,7 @@ header {
     background-repeat: no-repeat;
     background-position: 0 0;
     margin: 0;
-    margin-top: 52px;
-    
+    margin-bottom: 56px;
 }
 
 .promo-bottom {
@@ -136,8 +123,6 @@ header {
     background-repeat: no-repeat;
     background-position: 0 0;
     margin: 0;
-    margin-top: 58px;
-    
 }
 
 .reasons {
