@@ -197,13 +197,10 @@ h3 {
 }
 
 .supply-block {
-    width: 1200px;
-    min-height: 330px;
     background-color: #ffffff;
 }
 
 .supply-list {
-    width: 1200px;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -212,47 +209,46 @@ h3 {
 }
 
 .supply-list li {
-    width: 400px;
+    width: 300px;
+    outline: #053652;
+    padding: 164px 50px 84px;
+    position: relative;
 }
 
 .supply-item h3 {
     margin: 0;
     text-align: center;
-    position: relative;
-    margin-top: 162px;
+    margin-bottom: 28px;
 }
 
 .supply-item p {
     margin: 0;
     text-align: center;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 24px;
 }
 
-.supply-item h3::before {
+.supply-item::before {
     content: "";
     position: absolute;
-    bottom: 56px;
-    left: 162px;
-}
-
-.supply-housing h3::before {
-    background-image: url(../img/icon-1.svg);
-    width: 75px;
-    height: 72px;
-}
-
-.supply-food h3::before {
-    background-image: url(../img/icon-2.svg);
-    width: 74px;
-    height: 70px;
-}
-
-.supply-souvenirs h3::before {
-    background-image: url(../img/icon-3.svg);
-    width: 64px;
+    width: 76px;
     height: 76px;
+    margin-top: -104px;
+    left: 50%;
+    margin-left: -38px;
+}
+
+.supply-housing::before {
+    background-image: url(../img/icon-1.svg);
+    background-repeat: no-repeat;
+}
+
+.supply-food::before {
+    background-image: url(../img/icon-2.svg);
+    background-repeat: no-repeat;
+}
+
+.supply-souvenirs::before {
+    background-image: url(../img/icon-3.svg);
+    background-repeat: no-repeat;
 }
 
 .part-2 {
