@@ -765,14 +765,27 @@ button {
 
 .hotels-item h2 {
     margin: 0;
+    margin-bottom: 8px;
 }
 
 .hotels-item p {
     margin: 0;
+    margin-bottom: 8px;
 }
 
 .hotels article {
     padding: 30px 73px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.article-container {
+    padding-left: 30px;
+}
+
+.rating-container {
+    padding-top: 63px;
+    margin-left: 490px;
 }
 
 .hotel-title a {
