@@ -16,6 +16,7 @@ a {
 .main-container {
     width: 1200px;
     margin: 0 auto;
+    box-shadow: 0 0 20px 0 #c7c6c6;
 }
 
 header {
@@ -170,7 +171,7 @@ header {
 .reason-text-container {
     width: 400px;
     padding-top: 50px;
-    padding-bottom: 54px;
+    padding-bottom: 60px;
 }
 
 .reason-text-container h3,
@@ -178,7 +179,7 @@ header {
     text-align: center;
     margin: 0;
     line-height: 21px;
-    margin-bottom: 26px;
+    margin-bottom: 20px;
 }
 
 .reason-text-container p,
@@ -188,7 +189,7 @@ header {
 }
 
 .reason-text-container p:not(:last-child) {
-    margin-bottom: 26px;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -360,8 +361,8 @@ button {
 .form-section {
     position: absolute;
     left: 50%;
-    margin-left: -284px;
-    margin-top: 286px;
+    transform: translateX(-284px);
+    margin-top: 289px;
     background-color: #ffffff;
     padding: 55px;
 }
