@@ -721,6 +721,23 @@ button {
     align-items: center;
 }
 
+.arrow {
+    fill: #cacaca;
+}
+
+.arrow:hover,
+.arrow:focus {
+    fill: #231f20;
+}
+
+.arrow:active {
+    fill: #81b3d2;
+}
+
+.current-arrow svg {
+    fill: #81b3d2;
+}
+
 .main-sorting-item {
     color: #000000;
 }
