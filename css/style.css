@@ -561,9 +561,12 @@ button {
     margin-left: 114px;
 }
 
+.filters fieldset:last-child {
+    margin-left: 320px;
+}
+
 .filter-range {
     width: 330px;
-    margin-left: 346px;
 }
 
 .filter-range label {
@@ -673,6 +676,7 @@ button {
 }
 
 .search-results {
+    background-color: #ffffff;
     border-bottom: 1px solid #e5e5e5;
     display: flex;
     padding: 32px 73px;
@@ -689,6 +693,10 @@ button {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.search-results ul:last-child {
+    margin-left: 470px;
 }
 
 .sorting-list {
@@ -714,6 +722,10 @@ button {
 
 .main-sorting-item {
     color: #000000;
+}
+
+.sorting-elements li:last-child {
+    margin-left: 14px;
 }
 
 .sorting-item a {
