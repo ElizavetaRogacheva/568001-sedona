@@ -484,6 +484,19 @@ button {
     padding: 0;
 }
 
+.academy-logo {
+    fill: #231f20;
+}
+
+.academy-logo:hover,
+.academy-logo:focus {
+    fill: #81b3d2;
+}
+
+.academy-logo:active {
+    fill: #bdbbbc;
+}
+
 .filters {
     background-image: url(../img/filter-background.jpg);
     background-position: 0 0;
