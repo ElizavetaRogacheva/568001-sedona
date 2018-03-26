@@ -364,9 +364,10 @@ button {
     position: absolute;
     left: 50%;
     transform: translateX(-284px);
-    margin-top: 289px;
+    margin-top: 290px;
     background-color: #ffffff;
-    padding: 55px;
+    padding: 53px;
+    box-shadow: 0 0 20px 0 #c7c6c6;
 }
 
 .form-section form {
@@ -388,6 +389,15 @@ button {
     height: 38px;
 }
 
+.form-section input:hover {
+    background-color: #ebebeb;
+}
+
+.form-section input:focus {
+    outline-color: #e5e5e5;
+    background-color: #ffffff;
+}
+
 .form-section label {
     font-weight: bold;
     line-height: 26px;
@@ -397,6 +407,10 @@ button {
     width: 346px;
 }
 
+.long-area label {
+    margin-right: 20px;
+}
+
 .short-area-container {
     display: flex;
     margin-bottom: 24px;
@@ -404,6 +418,18 @@ button {
 
 .short-area input {
     width: 114px;
+}
+
+.adults label {
+    margin-right: 40px;
+}
+
+.adults input {
+    margin-right: 50px;
+}
+
+.children label {
+    margin-right: 26px;
 }
 
 .search-button {
@@ -479,16 +505,28 @@ button {
     background-position: center;
 }
 
+.twitter:active {
+    background-image: url(../img/twitter-1.svg);
+}
+
 .facebook {
     background-image: url(../img/fb-icon.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
+.facebook:active {
+    background-image: url(../img/fb-icon-1.svg);
+}
+
 .youtube {
     background-image: url(../img/youtube-icon.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.youtube:active {
+    background-image: url(../img/youtube-icon-1.svg);
 }
 
 .creators {
@@ -694,7 +732,7 @@ button {
 }
 
 .range-toggle:hover {
-  background: #1c4f80;
+    border: 10px solid #ffffff;
 }
 
 .filters button {
