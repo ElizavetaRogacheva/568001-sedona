@@ -389,17 +389,6 @@ button {
     height: 38px;
 }
 
-.form-section input[type="text"] {
-    -webkit-input-placeholder;
-    -moz-placeholder;
-    -ms-input-placeholder;
-    font-family: 'PT Sans', Arial, sans-serif;
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #282828;
-}
 
 .form-section input:hover {
     background-color: #ebebeb;
@@ -551,7 +540,7 @@ button {
     min-height: 120px;
     background-color: rgba(255, 255, 255, 0.9);
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -560,15 +549,21 @@ button {
 }
 
 .visit-sedona {
+    width: 33%;
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
     margin: 0;
-    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contacts {
-    margin-left: 256px;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-button {
@@ -602,6 +597,7 @@ button {
     background-image: url(../img/fb-icon.svg);
     background-repeat: no-repeat;
     background-position: center;
+    margin-left: 5px;
 }
 
 .facebook:active {
@@ -612,6 +608,7 @@ button {
     background-image: url(../img/youtube-icon.svg);
     background-repeat: no-repeat;
     background-position: center;
+    margin-left: 5px;
 }
 
 .youtube:active {
@@ -619,9 +616,10 @@ button {
 }
 
 .creators {
-    margin-left: 228px;
+    width: 33%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .creators p {
@@ -974,8 +972,7 @@ button {
 }
 
 .rating-container {
-    padding-top: 63px;
-    margin-left: 490px;
+    margin-left: 520px;
 }
 
 .hotel-title a {
@@ -1030,6 +1027,7 @@ button {
     background-color: #766357;
     font-weight: bold;
     color: #ffffff;
+    margin-left: 5px;
 }
 
 .reservation-button:hover,
@@ -1042,10 +1040,36 @@ button {
     color: rgba(255, 255, 255, 0.3);
 }
 
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
 .rating {
     display: inline-block;
     padding: 3px 14px;
     background-color: #f2f2f2;
+    margin-top: 50px;
+}
+
+.stars {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.stars li {
+    width: 18px;
+    height: 17px;
+    background-image: url(../img/star.svg);
+    background-repeat: no-repeat;
+}
+
+.stars li:not(:first-child) {
+    margin-left: 5px;
 }
 
 .visually-hidden {
