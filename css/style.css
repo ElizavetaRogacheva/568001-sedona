@@ -531,7 +531,7 @@ button {
     padding-left: 12px;
 }
 
-.form-section input:-moz-placeholder {
+.form-section input::-moz-placeholder {
     font-family: 'PT Sans', Arial, sans-serif;
     text-transform: uppercase;
     font-size: 14px;
