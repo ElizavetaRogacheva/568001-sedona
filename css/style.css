@@ -30,9 +30,11 @@ header {
     font-weight: bold;
     line-height: 26px;
     color: #000000;  
+    width: 100%;
 }
 
 .main-header-menu {
+    width: 100%;
     list-style: none;
     display: flex;
     justify-content: flex-start;
@@ -40,8 +42,16 @@ header {
     padding: 0;  
 }
 
-.main-menu-item:not(:last-child) {
-    margin-right: 232px;
+.main-menu-item:nth-child(2) {
+    margin-left: 146px;
+}
+
+.main-menu-item:nth-child(3) {
+    margin-left: 390px;
+}
+
+.main-menu-item:nth-child(4) {
+    margin-left: 162px;
 }
 
 .main-header-logo {
@@ -52,6 +62,7 @@ header {
 
 .main-header-menu a {
     color: #000000;
+    text-align: center;
 }
 
 .main-header-menu a:hover,
@@ -508,6 +519,36 @@ button {
 .children label {
     margin-right: 30px;
     margin-left: 50px;
+}
+
+.form-section input::-webkit-input-placeholder {
+    font-family: 'PT Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: bold;
+    padding-left: 12px;
+}
+
+.form-section input:-moz-placeholder {
+    font-family: 'PT Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: bold;
+    padding-left: 12px;
+}
+
+.form-section input:-ms-input-placeholder {
+    font-family: 'PT Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: bold;
+    padding-left: 12px;
 }
 
 .search-button {
