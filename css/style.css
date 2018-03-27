@@ -389,6 +389,18 @@ button {
     height: 38px;
 }
 
+.form-section input[type="text"] {
+    -webkit-input-placeholder;
+    -moz-placeholder;
+    -ms-input-placeholder;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #282828;
+}
+
 .form-section input:hover {
     background-color: #ebebeb;
 }
@@ -405,10 +417,41 @@ button {
 
 .long-area input {
     width: 346px;
+    position: relative;
 }
 
 .long-area label {
     margin-right: 20px;
+}
+
+.calendar {
+    position: absolute;
+    width: 21px;
+    height: 22px;;
+    border: none;
+    background-image: url(../img/calendar-icon.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    right: 62px;
+    cursor: pointer;
+    font-size: 0;
+}
+
+.calendar:hover {
+    background-image: url(../img/calendar-hover.svg);
+}
+
+.calendar:active {
+    background-image: url(../img/calendar-active.svg);
+    outline: none;
+}
+
+.entrance-calendar {
+    top: 62px;
+}
+
+.departure-calendar {
+    top: 132px;
 }
 
 .short-area-container {
@@ -416,20 +459,66 @@ button {
     margin-bottom: 24px;
 }
 
-.short-area input {
-    width: 114px;
+.short-area {
+    display: flex;
+    align-items: center;
 }
 
-.adults label {
-    margin-right: 40px;
-}
-
-.adults input {
+.number-area {
+    display: flex;
     margin-right: 50px;
 }
 
+.number-area input {
+    width: 38px;
+    height: 38px;
+}
+
+.adults label {
+   margin-right: 42px;
+}
+
+.short-area-button {
+    font-size: 0;
+    width: 38px;
+    height: 40px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.minus {
+    background-image: url(../img/minus-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.minus:hover,
+.minus:focus {
+    background-image: url(../img/minus-hover.png);
+}
+
+.minus:active {
+    background-image: url(../img/minus-active.png);
+}
+
+.plus {
+    background-image: url(../img/plus-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.plus:hover,
+.plus:focus {
+    background-image: url(../img/plus-hover.png);
+}
+
+.plus:active {
+    background-image: url(../img/plus-active.png);
+}
+
 .children label {
-    margin-right: 26px;
+    margin-right: 30px;
+    margin-left: 50px;
 }
 
 .search-button {

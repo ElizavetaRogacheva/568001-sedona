@@ -107,20 +107,30 @@
                 <form action="https://echo.htmlacademy.ru" method="POST">
                   <p class="form-item long-area entrance">
                     <label for="date-entrance">Дата заезда:</label>
-                    <input type="date" name="date-entrance" id="date-entrance" placeholder="24 апреля 2017">
+                    <input type="text" name="date-entrance" id="date-entrance" placeholder="24 апреля 2017">
+                    <button class="calendar entrance-calendar">Календарь</button>
                   </p>
                   <p class="form-item long-area departure">
                     <label for="date-departure">Дата выезда:</label>
-                    <input type="date" name="date-departure" id="date-departure" placeholder="4 июля 2017">
+                    <input type="text" name="date-departure" id="date-departure" placeholder="4 июля 2017">
+                    <button class="calendar departure-calendar">Календарь</button>
                   </p>
                   <div class="short-area-container">
                     <p class="form-item short-area adults">
                       <label for="adults-amount">Взрослые:</label>
-                      <input type="number" name="adults-amount" id="adults-amount">
+                      <p class="number-area">
+                        <button class="short-area-button minus">Уменьшить</button>
+                        <input type="text" name="adults-amount" id="adults-amount" placeholder="2">
+                        <button class="short-area-button plus">Увеличить</button>
+                      </p>
                     </p>
                     <p class="form-item short-area children">
                       <label for="children-amount">Дети:</label>
-                      <input type="number" name="children-amount" id="children-amount">
+                      <p class="number-area">
+                        <button class="short-area-button minus">Уменьшить</button>
+                        <input type="text" name="children-amount" id="children-amount" placeholder="0">
+                        <button class="short-area-button plus">Увеличить</button>
+                      </p>
                     </p>
                   </div>
                   <button class="search-button" type="submit">Найти</button>
