@@ -199,8 +199,7 @@ h3 {
     margin-bottom: 20px;
 }
 
-.reason-text-container p,
-.reason-text-container-2 p {
+.reason-text-container p {
     text-align: center; 
     margin: 0 50px;
 }
@@ -277,12 +276,18 @@ h3 {
     padding-bottom: 54px;
 }
 
+.reason-text-container-2 p {
+    text-align: center;
+    margin: 0 45px;
+}
+
 .reason-text-container-2 p:not(:last-child) {
     margin-bottom: 26px;
 }
 
 .last-reasons {
     background-color: #eeeeee;
+    width: 100%;
 }
 
 .last-reasons-list {
@@ -295,8 +300,9 @@ h3 {
 
 .last-reason-item {
     text-align: center;
-    width: 300px;
-    padding: 50px 50px 60px;
+    width: 33%;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 
 .last-reason-item h3 {
@@ -305,7 +311,7 @@ h3 {
 }
 
 .last-reason-item p {
-    margin: 0;
+    margin: 0 60px;
     line-height: 21px;
 }
 
@@ -364,11 +370,13 @@ button {
 .hotel-search-button:hover,
 .hotel-search-button:focus {
     background-color: #604e43;
+    cursor: pointer;
 }
 
 .hotel-search-button:active {
     background-color: #503e33;
     color: #857871;
+    outline: none;
 }
 
 .form-section {
@@ -400,13 +408,12 @@ button {
     height: 38px;
 }
 
-
 .form-section input:hover {
     background-color: #ebebeb;
 }
 
 .form-section input:focus {
-    outline-color: #e5e5e5;
+    outline: 2px solid #e5e5e5;;
     background-color: #ffffff;
 }
 
@@ -416,8 +423,15 @@ button {
 }
 
 .long-area input {
-    width: 346px;
+    width: 334px;
     position: relative;
+    padding-left: 12px;
+    font-size: 14;
+    line-height: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'PT Sans', Arial, sans-serif;
+    color: #000000;
 }
 
 .long-area label {
@@ -437,8 +451,10 @@ button {
     font-size: 0;
 }
 
-.calendar:hover {
+.calendar:hover,
+.calendar:focus {
     background-image: url(../img/calendar-hover.svg);
+    outline: none;
 }
 
 .calendar:active {
@@ -470,8 +486,14 @@ button {
 }
 
 .number-area input {
-    width: 38px;
+    width: 24px;
     height: 38px;
+    padding-left: 14px;
+    font-size: 14;
+    line-height: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'PT Sans', Arial, sans-serif;
 }
 
 .adults label {
@@ -495,10 +517,12 @@ button {
 .minus:hover,
 .minus:focus {
     background-image: url(../img/minus-hover.png);
+    outline: none;
 }
 
 .minus:active {
     background-image: url(../img/minus-active.png);
+    outline: none;
 }
 
 .plus {
@@ -510,10 +534,12 @@ button {
 .plus:hover,
 .plus:focus {
     background-image: url(../img/plus-hover.png);
+    outline: none;
 }
 
 .plus:active {
     background-image: url(../img/plus-active.png);
+    outline: none;
 }
 
 .children label {
@@ -522,33 +548,16 @@ button {
 }
 
 .form-section input::-webkit-input-placeholder {
-    font-family: 'PT Sans', Arial, sans-serif;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 26px;
     color: #000000;
-    font-weight: bold;
-    padding-left: 12px;
 }
 
 .form-section input::-moz-placeholder {
-    font-family: 'PT Sans', Arial, sans-serif;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 26px;
     color: #000000;
-    font-weight: bold;
-    padding-left: 12px;
+    opacity: 1;
 }
 
 .form-section input:-ms-input-placeholder {
-    font-family: 'PT Sans', Arial, sans-serif;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 26px;
     color: #000000;
-    font-weight: bold;
-    padding-left: 12px;
 }
 
 .search-button {
@@ -564,6 +573,7 @@ button {
 .search-button:hover,
 .search-button:focus {
     background-color: #669ec0;
+    cursor: pointer;
 }
 
 .search-button:active {
