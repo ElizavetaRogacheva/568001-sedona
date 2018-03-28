@@ -241,26 +241,34 @@ h3 {
 .supply-item::before {
     content: "";
     position: absolute;
-    width: 76px;
-    height: 76px;
-    margin-top: -104px;
     left: 50%;
-    margin-left: -38px;
 }
 
 .supply-housing::before {
+    width: 75px;
+    height: 72px;
     background-image: url(../img/icon-1.svg);
     background-repeat: no-repeat;
+    margin-left: -38px;
+    margin-top: -102px;
 }
 
 .supply-food::before {
+    width: 74px;
+    height: 70px;
     background-image: url(../img/icon-2.svg);
     background-repeat: no-repeat;
+    margin-left: -39px;
+    margin-top: -102px;
 }
 
 .supply-souvenirs::before {
+    width: 64px;
+    height: 76px;
     background-image: url(../img/icon-3.svg);
     background-repeat: no-repeat;
+    margin-left: -33px;
+    margin-top: -104px;
 }
 
 .part-2 {
@@ -316,7 +324,7 @@ h3 {
 }
 
 .last-reason-item p:not(:last-child) {
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 }
 
 .hotel-search {
@@ -339,7 +347,7 @@ h3 {
     font-weight: bold;
     margin: 0;
     text-align: center;
-    margin-bottom: 34px;    
+    margin-bottom: 36px;    
 }
 
 .search-data p {
@@ -623,6 +631,7 @@ button {
     height: 48px;
     background-color: #81b3d2;
     font-size: 0;
+    position: relative;
 }
 
 .social-button:hover,
@@ -632,38 +641,61 @@ button {
 
 .social-button:active {
     background-color: #5496bd;
+    outline: none;
 }
 
-.twitter {
+.twitter::before {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 16px;
     background-image: url(../img/twitter.svg);
     background-repeat: no-repeat;
-    background-position: center;
+    left: 14px;
+    top: 16px;
+
 }
 
-.twitter:active {
-    background-image: url(../img/twitter-1.svg);
+.twitter:active::before {
+    opacity: 0.3;
 }
 
 .facebook {
-    background-image: url(../img/fb-icon.svg);
-    background-repeat: no-repeat;
-    background-position: center;
     margin-left: 5px;
 }
 
-.facebook:active {
-    background-image: url(../img/fb-icon-1.svg);
+.facebook::before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 22px;
+    background-image: url(../img/fb-icon.svg);
+    background-repeat: no-repeat;
+    left: 17px;
+    top: 13px;
+}
+
+.facebook:active::before {
+    opacity: 0.3;
 }
 
 .youtube {
-    background-image: url(../img/youtube-icon.svg);
-    background-repeat: no-repeat;
-    background-position: center;
     margin-left: 5px;
 }
 
-.youtube:active {
-    background-image: url(../img/youtube-icon-1.svg);
+.youtube::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 16px;
+    background-image: url(../img/youtube-icon.svg);
+    background-repeat: no-repeat;
+    left: 13px;
+    top: 16px;
+}
+
+.youtube:active::before {
+    opacity: 0.3;
 }
 
 .creators {
@@ -1102,7 +1134,7 @@ button {
     display: inline-block;
     padding: 3px 14px;
     background-color: #f2f2f2;
-    margin-top: 50px;
+    margin-top: 48px;
 }
 
 .stars {
