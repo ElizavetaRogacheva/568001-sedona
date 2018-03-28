@@ -21,7 +21,6 @@ a {
 
 header {
     min-height: 56px;
-    padding: 0 73px;
     background-color: #ffffff;
     display: flex;
 }
@@ -42,16 +41,25 @@ header {
     padding: 0;  
 }
 
+.main-menu-item {
+    width: 100px;
+    text-align: center;
+}
+
+.main-menu-item:first-child {
+    margin-left: 70px;
+}
+
 .main-menu-item:nth-child(2) {
-    margin-left: 146px;
+    margin-left: 140px;
 }
 
 .main-menu-item:nth-child(3) {
-    margin-left: 390px;
+    margin-left: 380px;
 }
 
 .main-menu-item:nth-child(4) {
-    margin-left: 162px;
+    margin-left: 150px;
 }
 
 .main-header-logo {
