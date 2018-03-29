@@ -23,17 +23,18 @@ header {
     min-height: 56px;
     background-color: #ffffff;
     display: flex;
+    padding-left: 70px;
+    padding-right: 63px;
 }
 
 .main-nav {
     font-weight: bold;
     line-height: 26px;
     color: #000000;  
-    width: 100%;
+    width: 100%
 }
 
 .main-header-menu {
-    width: 100%;
     list-style: none;
     display: flex;
     justify-content: flex-start;
@@ -47,19 +48,19 @@ header {
 }
 
 .main-menu-item:first-child {
-    margin-left: 70px;
+    margin-right: 144px;
 }
 
 .main-menu-item:nth-child(2) {
-    margin-left: 140px;
+    margin-right: auto;
 }
 
 .main-menu-item:nth-child(3) {
-    margin-left: 380px;
+    margin-left: auto;
 }
 
 .main-menu-item:nth-child(4) {
-    margin-left: 150px;
+    margin-left: 147px;
 }
 
 .main-header-logo {
