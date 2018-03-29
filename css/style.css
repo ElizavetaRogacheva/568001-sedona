@@ -1063,10 +1063,6 @@ button {
     padding-left: 30px;
 }
 
-.rating-container {
-    margin-left: 520px;
-}
-
 .hotel-title a {
     font-size: 21px;
     font-weight: bold;
@@ -1119,7 +1115,7 @@ button {
     background-color: #766357;
     font-weight: bold;
     color: #ffffff;
-    margin-left: 5px;
+    margin-left: 3px;
 }
 
 .reservation-button:hover,
@@ -1137,6 +1133,7 @@ button {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
+    margin-left: 520px;
 }
 
 .rating {
