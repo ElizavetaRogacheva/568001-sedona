@@ -13,6 +13,11 @@ a {
     text-decoration: none;
 }
 
+h3 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
 .main-container {
     width: 1200px;
     margin: 0 auto;
@@ -154,8 +159,8 @@ header {
 
 .introduction {
     width: 100%;
-    padding-top: 62px;
-    padding-bottom: 46px;
+    padding-top: 60px;
+    padding-bottom: 50px;
     background-color: #ffffff;
 }
 
@@ -169,7 +174,7 @@ header {
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 }
 
 .introduction-text {
@@ -191,21 +196,15 @@ header {
 
 .reason-text-container {
     width: 400px;
-    padding-top: 50px;
+    padding-top: 48px;
     padding-bottom: 60px;
 }
 
-h3 {
-    font-size: 21px;
-    font-weight: bold;
-}
-
-.reason-text-container h3,
-.reason-text-container-2 h3 {
+.reason-text-container h3 {
     text-align: center;
     margin: 0;
     line-height: 21px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
 .reason-text-container p {
@@ -231,7 +230,7 @@ h3 {
 
 .supply-item {
     width: 300px;
-    padding: 164px 50px 76px;
+    padding: 164px 50px 80px;
     position: relative;
 }
 
@@ -239,7 +238,7 @@ h3 {
     line-height: 21px;
     margin: 0;
     text-align: center;
-    margin-bottom: 28px;
+    margin-bottom: 24px;
 }
 
 .supply-item p {
@@ -289,8 +288,15 @@ h3 {
 
 .reason-text-container-2 {
     width: 400px;
-    padding-top: 50px;
-    padding-bottom: 54px;
+    padding-top: 46px;
+    padding-bottom: 56px;
+}
+
+.reason-text-container-2 h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 21px;
+    margin-bottom: 22px;
 }
 
 .reason-text-container-2 p {
@@ -324,7 +330,7 @@ h3 {
 
 .last-reason-item h3 {
     margin: 0;
-    margin-bottom: 26px;
+    margin-bottom: 24px;
 }
 
 .last-reason-item p {
@@ -333,7 +339,7 @@ h3 {
 }
 
 .last-reason-item p:not(:last-child) {
-    margin-bottom: 17px;
+    margin-bottom: 19px;
 }
 
 .hotel-search {
@@ -402,7 +408,7 @@ button {
     transform: translateX(-284px);
     top: 100%;
     background-color: #ffffff;
-    padding: 53px;
+    padding: 53px 55px;
     box-shadow: 0 0 20px 0 #c7c6c6;
 }
 
@@ -416,7 +422,7 @@ button {
 .form-section p {
     margin: 0;
     padding: 0;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 }
 
 .form-section input {
@@ -443,7 +449,7 @@ button {
     width: 334px;
     position: relative;
     padding-left: 12px;
-    font-size: 14;
+    font-size: 14px;
     line-height: 38px;
     font-weight: bold;
     text-transform: uppercase;
@@ -451,8 +457,12 @@ button {
     color: #000000;
 }
 
-.long-area label {
-    margin-right: 20px;
+.entrance label {
+    margin-right: 17px;
+}
+
+.departure label {
+    margin-right: 14px;
 }
 
 .calendar {
@@ -463,7 +473,7 @@ button {
     background-image: url(../img/calendar-icon.svg);
     background-repeat: no-repeat;
     background-color: transparent;
-    right: 62px;
+    right: 64px;
     cursor: pointer;
     font-size: 0;
 }
@@ -484,7 +494,7 @@ button {
 }
 
 .departure-calendar {
-    top: 132px;
+    top: 130px;
 }
 
 .short-area-container {
@@ -499,14 +509,14 @@ button {
 
 .number-area {
     display: flex;
-    margin-right: 50px;
+    margin-right: 48px;
 }
 
 .number-area input {
-    width: 24px;
+    width: 38px;
     height: 38px;
-    padding-left: 14px;
-    font-size: 14;
+    text-align: center;
+    font-size: 14px;
     line-height: 38px;
     font-weight: bold;
     text-transform: uppercase;
@@ -514,7 +524,7 @@ button {
 }
 
 .adults label {
-   margin-right: 42px;
+   margin-right: 39px;
 }
 
 .short-area-button {
@@ -560,7 +570,7 @@ button {
 }
 
 .children label {
-    margin-right: 30px;
+    margin-right: 26px;
     margin-left: 50px;
 }
 
@@ -873,7 +883,8 @@ button {
     width: 50px;
     margin: 0;
     color: inherit;
-    font: inherit;
+    font-size: 14px;
+    font-family: 'PT Sans', Arial, sans-serif;
     background: none;
     border: none;
 }
@@ -929,6 +940,7 @@ button {
     font-weight: normal;
     margin-left: 85px;
     padding: 6px 35px;
+    font-size: 14px;
 }
 
 .filters button:hover,
@@ -1057,7 +1069,7 @@ button {
 }
 
 .hotels article {
-    padding: 30px 73px 26px;
+    padding: 30px 71px 24px 73px;
     display: flex;
     align-items: flex-start;
     border-bottom: 1px solid #e5e5e5;
@@ -1137,7 +1149,7 @@ button {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
-    margin-left: 520px;
+    margin-left: 522px;
 }
 
 .rating {
