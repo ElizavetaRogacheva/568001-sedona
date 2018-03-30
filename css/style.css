@@ -752,7 +752,7 @@ button {
     background-image: url(../img/filter-background.jpg);
     background-position: 0 -56px;
     background-repeat: no-repeat;
-    padding: 28px 73px 33px;
+    padding: 28px 72px 32px;
 }
 
 .filters form {
@@ -783,8 +783,12 @@ button {
     margin-bottom: 25px;
 }
 
+.checkbox-field:last-child legend {
+    margin-right: 2px;
+}
+
 .infrastructure li {
-    padding-left: 40px; 
+    padding-left: 40px;  
 }
 
 .housing-type li {
@@ -792,11 +796,11 @@ button {
 }
 
 .infrastructure li:not(:last-child) {
-    margin-bottom: 23px;
+    margin-bottom: 24px;
 }
 
 .housing-type li:not(:last-child) {
-    margin-bottom: 23px;
+    margin-bottom: 24px;
 }
 
 .filters label {
@@ -827,7 +831,7 @@ button {
 }
 
 .filters fieldset:nth-child(2) {
-    margin-left: 114px;
+    margin-left: 116px;
 }
 
 .filters fieldset:last-child {
@@ -840,6 +844,7 @@ button {
 
 .filter-range legend {
     margin-bottom: 9px;
+    margin-left: 2px;
 }
 
 .cost-control {
@@ -876,7 +881,7 @@ button {
 }
 
 .cost-control .max-cost {
-    padding-left: 60px;
+    padding-left: 57px;
 }
 
 .cost-control input {
