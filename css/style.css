@@ -341,6 +341,7 @@ h3 {
     padding: 0;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .search-data {
@@ -348,7 +349,6 @@ h3 {
     margin: 0;
     padding: 0;
     padding-top: 56px;
-    position: relative;
 }
 
 .search-data h2 {
@@ -400,7 +400,7 @@ button {
     position: absolute;
     left: 50%;
     transform: translateX(-284px);
-    margin-top: 290px;
+    top: 100%;
     background-color: #ffffff;
     padding: 53px;
     box-shadow: 0 0 20px 0 #c7c6c6;
@@ -605,7 +605,7 @@ button {
 }
 
 .main-footer {
-    min-height: 120px;
+    padding: 36px 0;
     background-color: rgba(255, 255, 255, 0.9);
     display: flex;
     justify-content: space-between;
@@ -625,6 +625,10 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.visit-sedona p {
+    margin: 0;
 }
 
 .contacts {
