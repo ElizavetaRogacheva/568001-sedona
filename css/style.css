@@ -505,7 +505,6 @@ button {
 
 .short-area {
     display: flex;
-    align-items: center;
 }
 
 .number-area {
@@ -526,6 +525,7 @@ button {
 
 .adults label {
    margin-right: 39px;
+   margin-top: 8px;
 }
 
 .short-area-button {
@@ -573,6 +573,7 @@ button {
 .children label {
     margin-right: 26px;
     margin-left: 50px;
+    margin-top: 8px;
 }
 
 .form-section input::-webkit-input-placeholder {
