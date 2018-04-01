@@ -16,6 +16,11 @@ try {
     isStorageSupport = false;
 } 
 
+document.addEventListener("DOMContentLoaded", function (evt) {
+    evt.preventDefault();
+    formArea.classList.toggle("form-close");
+})
+
 formButton.addEventListener("click", function (evt) {
     evt.preventDefault();
     formArea.classList.toggle("form-close");
