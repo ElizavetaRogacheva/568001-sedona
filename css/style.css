@@ -13,11 +13,6 @@ a {
     text-decoration: none;
 }
 
-h3 {
-    font-size: 21px;
-    font-weight: bold;
-}
-
 .main-container {
     width: 1200px;
     margin: 0 auto;
@@ -25,7 +20,7 @@ h3 {
     overflow: hidden;
 }
 
-header {
+.main-header {
     min-height: 56px;
     background-color: #ffffff;
     display: flex;
@@ -208,6 +203,8 @@ header {
     line-height: 21px;
     margin-bottom: 22px;
     padding: 0 100px;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 .reason-text-container p {
@@ -242,6 +239,8 @@ header {
     margin: 0;
     text-align: center;
     margin-bottom: 24px;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 .supply-item p {
@@ -300,6 +299,8 @@ header {
     margin: 0;
     line-height: 21px;
     margin-bottom: 22px;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 .reason-text-container-2 p {
@@ -335,6 +336,8 @@ header {
     margin: 0;
     margin-bottom: 24px;
     padding: 0 120px;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 .last-reason-item p {
@@ -375,15 +378,12 @@ header {
     margin-bottom: 50px;
 }
 
-button {
+.hotel-search-button {
     border: none;
     font-family: 'PT Sans', Arial, sans-serif;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
-}
-
-.hotel-search-button {
     padding: 0;
     width: 568px;
     height: 86px;
@@ -532,6 +532,11 @@ button {
 }
 
 .short-area-button {
+    border: none;
+    font-family: 'PT Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
     font-size: 0;
     width: 38px;
     height: 40px;
@@ -593,6 +598,11 @@ button {
 }
 
 .search-button {
+    border: none;
+    font-family: 'PT Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     background-color: #81b3d2;
@@ -654,6 +664,11 @@ button {
 }
 
 .social-button {
+    border: none;
+    font-family: 'PT Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
     display: inline-block;
     width: 46px;
     height: 48px;
@@ -946,6 +961,8 @@ button {
 }
 
 .filters button {
+    font-family: 'PT Sans', Arial, sans-serif;
+    text-transform: uppercase;
     display: block;
     width: 136px;
     height: 34px;
@@ -1124,6 +1141,9 @@ button {
 }
 
 .info-button {
+    border: none;
+    font-family: 'PT Sans', Arial, sans-serif;
+    text-transform: uppercase;
     display: inline-block;
     padding: 3px 16px;
     background-color: #81b3d2;
@@ -1142,6 +1162,9 @@ button {
 }
 
 .reservation-button {
+    border: none;
+    font-family: 'PT Sans', Arial, sans-serif;
+    text-transform: uppercase;
     display: inline-block;
     padding: 3px 16px;
     background-color: #766357;
