@@ -754,6 +754,7 @@ button {
 }
 
 .filters {
+    background-color: #5496bd;
     background-image: url(../img/filter-background.jpg);
     background-position: 0 -56px;
     background-repeat: no-repeat;
