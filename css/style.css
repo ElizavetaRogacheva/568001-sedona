@@ -727,6 +727,7 @@ a {
     background-color: #81b3d2;
     font-size: 0;
     position: relative;
+    vertical-align: middle;
 }
 
 .social-button:hover,
@@ -1201,6 +1202,7 @@ a {
     background-color: #81b3d2;
     font-weight: bold;
     color: #ffffff;
+    vertical-align: middle;
 }
 
 .info-button:hover,
@@ -1223,6 +1225,7 @@ a {
     font-weight: bold;
     color: #ffffff;
     margin-left: 3px;
+    vertical-align: middle;
 }
 
 .reservation-button:hover,
@@ -1248,6 +1251,7 @@ a {
     padding: 3px 14px;
     background-color: #f2f2f2;
     margin-top: 48px;
+    vertical-align: middle;
 }
 
 .stars {
