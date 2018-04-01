@@ -414,6 +414,26 @@ a {
     background-color: #ffffff;
     padding: 53px 55px;
     box-shadow: 0 0 20px 0 #c7c6c6;
+    animation-name: emerging;
+    animation-duration: 0.6s;
+}
+
+@keyframes emerging {
+    0% {
+        transform: translateX(-2000px);
+  }
+
+    40% {
+        transform: translateX(-270px);
+    }
+
+    100% {
+        transform: translateX(-284px);
+  }
+}
+
+.form-close {
+    display: none;
 }
 
 .form-section form {
