@@ -176,6 +176,7 @@ header {
     font-weight: bold;
     line-height: 26px;
     margin-bottom: 28px;
+    padding: 0 300px;
 }
 
 .introduction-text {
@@ -206,6 +207,7 @@ header {
     margin: 0;
     line-height: 21px;
     margin-bottom: 22px;
+    padding: 0 100px;
 }
 
 .reason-text-container p {
@@ -332,6 +334,7 @@ header {
 .last-reason-item h3 {
     margin: 0;
     margin-bottom: 24px;
+    padding: 0 120px;
 }
 
 .last-reason-item p {
