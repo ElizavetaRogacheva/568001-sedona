@@ -432,6 +432,37 @@ a {
   }
 }
 
+@keyframes error {
+    0% {
+        transform: translateX(-284px);
+  }
+
+    20% {
+        transform: translateX(-274px);
+    }
+
+    40% {
+        transform: translateX(-294px);
+    }
+
+    60% {
+        transform: translateX(-274px);
+    }
+    
+    80% {
+        transform: translateX(-294px);
+    }
+
+    100% {
+        transform: translateX(-284px);
+  }
+}
+
+.form-error {
+    animation-name: error;
+    animation-duration: 0.3s;
+}
+
 .form-close {
     display: none;
 }
